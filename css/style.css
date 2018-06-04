@@ -1,4 +1,7 @@
-body  {
-  font-family: "Arial Neue", "Helvetica", sans-serif;
-  color: #333;
-}
+body {
+  background: linear-gradient(#080808, #383838);
+  color: white;
+  background-attachment: fixed;
+  min-height: 500px; }
+
+/*# sourceMappingURL=style.css.map */
