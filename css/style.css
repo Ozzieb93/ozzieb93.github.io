@@ -63,6 +63,7 @@ p {
 .project-image {
   height: 250px;
   width: 400px;
+  border-radius: 10px;
 }
 
 .contact-logo {
