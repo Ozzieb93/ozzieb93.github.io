@@ -1,7 +1,73 @@
-body {
-  background: linear-gradient(#080808, #383838);
-  color: white;
-  background-attachment: fixed;
-  min-height: 500px; }
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
 
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #6f6e72;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.header {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 100px;
+}
+
+.ozzie-image {
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.skills-logo {
+  height: 70px;
+  margin: 10px;
+}
+
+.project-image {
+  height: 150px;
+}
+
+.contact-logo {
+  height: 40px;
+}
+
+/* a:hover {
+  color: yellow;
+} */
