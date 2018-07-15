@@ -70,6 +70,10 @@ p {
   height: 40px;
 }
 
+.navbar {
+  border: solid red 1px;
+}
+
 /* a:hover {
   color: yellow;
 } */
